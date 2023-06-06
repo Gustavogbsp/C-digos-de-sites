@@ -5,10 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-    <title>Document</title>
+    <title>Trabalho de LTP e PW</title>
+    <link href="trabalho.css" rel="stylesheet" type="text/css"/>
 </head>
-<body>
-    <table border="1">
+<body class="conatiner m-9">
+    <h1 class="title is-1 has-text-centered">Boletim Escolar</h1>
+    <div class="block">
+        <div class="field">
+            <div class="control">
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+    <table class="table is-bordered" border="1">
+        <tr>
+            <td>Matérias:</td>
+            <td>1ª Nota</td>
+            <td>2ª Nota</td>
+            <td>Média Final</td>
+        </tr>
         <tr>
             <td>Português</td>
             <td class="control">
@@ -70,6 +86,7 @@
             </td>
         </tr>
     </table>
+    </div>
     <div class="block"></div>
     <button id="button" class="button is-primary">Calcular Média</button>
 </body>
